@@ -1,0 +1,14 @@
+employee_id,name,grade,position,location,monthly_gross_npr,citizenship_no,mobile,bank_account
+KH-001,Sabina Shrestha,G6,Chief Executive Officer,Baluwatar,410000,52-03-76-95319,9841620223,0199990608196
+KH-002,Rajendra Adhikari,G6,Chief Financial Officer,Baluwatar,355000,57-01-78-38140,9841258145,0218275367528
+KH-003,Nabin Tamang,G6,Head of Engineering and Operations,Gongar,340000,19-04-71-82226,9854244500,0173077052328
+KH-004,Anita Gurung,G5,Head of Human Resources,Baluwatar,198000,18-07-70-38977,9841563055,0813234302396
+KH-005,Dipesh Thapa,G5,Plant Manager,Gongar,205000,64-03-78-25439,9859156684,0494032085205
+KH-014,Kabita Rai,G4,Senior Accountant,Baluwatar,118000,35-06-71-81793,9863894472,0181999941733
+KH-021,Suman Karki,G4,Shift In-charge,Gongar,104000,37-08-78-66045,9866079470,0508811503699
+KH-022,Pemba Sherpa,G4,Maintenance Engineer,Gongar,112000,69-06-74-42561,9866654952,0335095259183
+KH-031,Ramesh Yadav,G3,Junior Engineer (SCADA),Gongar,72000,49-09-77-55020,9864476122,0675830794723
+KH-035,Sarita Bhandari,G3,HR Officer,Baluwatar,61000,20-02-78-64804,9845535209,0533549877600
+KH-040,Bishal Magar,G2,Operator,Gongar,41000,64-01-71-83148,9859227559,0506706306811
+KH-041,Laxmi Thami,G2,Operator,Gongar,38500,55-08-79-69795,9842307301,0215528829585
+KH-052,Hari Bahadur Basnet,G1,Security Guard,Gongar,24000,19-01-74-94820,9859392657,0978476611391

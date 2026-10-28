@@ -1,0 +1,30 @@
+# Who can see what. Gopya filters retrieval by these collections inside the vector store query,
+# so a document outside a role's collections never reaches the model.
+#
+# collections: folders under data/docs the role may read.
+# pii: whether personal identity numbers, phone numbers and bank accounts are shown unredacted.
+
+[roles.staff]
+description = "Any employee"
+collections = ["general"]
+pii = false
+
+[roles.finance]
+description = "Finance team"
+collections = ["general", "finance"]
+pii = false
+
+[roles.engineering]
+description = "Engineering and operations"
+collections = ["general", "engineering"]
+pii = false
+
+[roles.hr]
+description = "Human resources"
+collections = ["general", "hr"]
+pii = true
+
+[roles.executive]
+description = "CEO, CFO and department heads on the management team"
+collections = ["general", "finance", "engineering", "hr", "board"]
+pii = false

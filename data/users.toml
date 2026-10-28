@@ -1,0 +1,27 @@
+# Demo users. In production the role comes from the identity provider (for example an Entra ID
+# group claim); here each user has a static token for the API and the CLI.
+
+[users.sarita]
+name = "Sarita Bhandari"
+role = "hr"
+token = "demo-hr-sarita"
+
+[users.kabita]
+name = "Kabita Rai"
+role = "finance"
+token = "demo-fin-kabita"
+
+[users.pemba]
+name = "Pemba Sherpa"
+role = "engineering"
+token = "demo-eng-pemba"
+
+[users.bishal]
+name = "Bishal Magar"
+role = "staff"
+token = "demo-staff-bishal"
+
+[users.sabina]
+name = "Sabina Shrestha"
+role = "executive"
+token = "demo-exec-sabina"
