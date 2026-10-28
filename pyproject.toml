@@ -1,0 +1,14 @@
+[project]
+name = "gopya"
+version = "0.1.0"
+description = "An internal company assistant (RAG) that only answers from documents your role may read"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
