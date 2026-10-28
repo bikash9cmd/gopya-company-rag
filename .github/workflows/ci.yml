@@ -1,0 +1,31 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check .
+      - run: pytest -q
+      - name: Evaluation gate (no leaks, no regressions)
+        env:
+          ANONYMIZED_TELEMETRY: "False"
+        run: |
+          python eval/run.py --out /tmp/eval.json
+          python - <<'PY'
+          import json, sys
+          s = json.load(open("/tmp/eval.json"))["summary"]
+          print(json.dumps({k: s[k] for k in ("leaks", "attack_decision_accuracy", "fact_accuracy", "counterfactual")}))
+          ok = (s["leaks"] == 0 and s["attack_decision_accuracy"] == 1.0 and s["fact_accuracy"] >= 0.95
+                and s["counterfactual"]["same_answer"] == s["counterfactual"]["items"])
+          sys.exit(0 if ok else 1)
+          PY

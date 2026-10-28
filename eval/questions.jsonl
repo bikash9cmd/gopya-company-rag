@@ -1,0 +1,54 @@
+{"id": "q01", "user": "bishal", "q": "How many days of sick leave do I get a year?", "docs": ["general/leave-policy"], "facts": ["12 days"]}
+{"id": "q02", "user": "bishal", "q": "How much home leave do I earn?", "docs": ["general/leave-policy"], "facts": ["20 days"]}
+{"id": "q03", "user": "pemba", "q": "How long is paternity leave?", "docs": ["general/leave-policy"], "facts": ["15 days"]}
+{"id": "q04", "user": "kabita", "q": "How many days of maternity leave are paid?", "docs": ["general/leave-policy"], "facts": ["60 days"]}
+{"id": "q05", "user": "bishal", "q": "What allowance do I get for working during Dashain?", "docs": ["general/leave-policy"], "facts": ["1,500"]}
+{"id": "q06", "user": "sarita", "q": "How many days before should I apply for leave?", "docs": ["general/leave-policy"], "facts": ["7 days"]}
+{"id": "q07", "user": "bishal", "q": "How many days of mourning leave for the death of a parent?", "docs": ["general/leave-policy"], "facts": ["13 days"]}
+{"id": "q08", "user": "bishal", "q": "What is the daily allowance in the Kathmandu valley?", "docs": ["general/travel-and-allowances"], "facts": ["2,500"]}
+{"id": "q09", "user": "kabita", "q": "When does the staff jeep leave for Gongar?", "docs": ["general/travel-and-allowances"], "facts": ["Sunday", "Thursday"]}
+{"id": "q10", "user": "pemba", "q": "What is the deadline to submit a travel claim?", "docs": ["general/travel-and-allowances"], "facts": ["15 days"]}
+{"id": "q11", "user": "bishal", "q": "What is the hotel limit per night?", "docs": ["general/travel-and-allowances"], "facts": ["4,500"]}
+{"id": "q12", "user": "bishal", "q": "Who do I tell if I clicked a phishing link?", "docs": ["general/it-and-security"], "facts": ["210"]}
+{"id": "q13", "user": "kabita", "q": "How long must my password be?", "docs": ["general/it-and-security"], "facts": ["12 characters"]}
+{"id": "q14", "user": "pemba", "q": "Who approves VPN access to SCADA?", "docs": ["general/it-and-security"], "facts": ["Head of Engineering"]}
+{"id": "q15", "user": "bishal", "q": "What PPE do I need at the powerhouse?", "docs": ["general/site-safety"], "facts": ["helmet"]}
+{"id": "q16", "user": "pemba", "q": "Who signs the tunnel entry permit?", "docs": ["general/site-safety"], "facts": ["Plant Manager"]}
+{"id": "q17", "user": "bishal", "q": "What is the emergency phone number at site?", "docs": ["general/site-safety"], "facts": ["100"]}
+{"id": "q18", "user": "bishal", "q": "Where is the nearest hospital to the site?", "docs": ["general/site-safety"], "facts": ["Charikot"]}
+{"id": "q19", "user": "bishal", "q": "How big is the Kanchan Khola plant?", "docs": ["general/company-overview"], "facts": ["24 MW"]}
+{"id": "q20", "user": "kabita", "q": "Who is the Chief Financial Officer?", "docs": ["general/company-overview"], "facts": ["Rajendra Adhikari"]}
+{"id": "q21", "user": "bishal", "q": "How many staff does the company have?", "docs": ["general/company-overview"], "facts": ["86"]}
+{"id": "q22", "user": "kabita", "q": "What is the dry season tariff in FY 2082/83?", "docs": ["finance/ppa-and-tariff"], "facts": ["9.16"]}
+{"id": "q23", "user": "kabita", "q": "What is the wet season base tariff?", "docs": ["finance/ppa-and-tariff"], "facts": ["4.80"]}
+{"id": "q24", "user": "kabita", "q": "How long do we have to file a deemed energy claim?", "docs": ["finance/ppa-and-tariff"], "facts": ["30 days"]}
+{"id": "q25", "user": "kabita", "q": "What is the contract energy in the PPA?", "docs": ["finance/ppa-and-tariff"], "facts": ["138.6 GWh"]}
+{"id": "q26", "user": "kabita", "q": "What is the expected revenue this fiscal year?", "docs": ["finance/budget-fy-2082-83"], "facts": ["87.4 crore"]}
+{"id": "q27", "user": "kabita", "q": "What is the insurance budget?", "docs": ["finance/budget-fy-2082-83"], "facts": ["1.6 crore"]}
+{"id": "q28", "user": "kabita", "q": "How much loan principal do we repay this year?", "docs": ["finance/budget-fy-2082-83"], "facts": ["21 crore"]}
+{"id": "q29", "user": "kabita", "q": "How much did the plant generate in Q1?", "docs": ["finance/q1-results-2082-83"], "facts": ["49.8 GWh"]}
+{"id": "q30", "user": "kabita", "q": "How much cash was in the bank at the end of Ashwin?", "docs": ["finance/q1-results-2082-83"], "facts": ["14.3 crore"]}
+{"id": "q31", "user": "kabita", "q": "Who approves a purchase between Rs 50,001 and Rs 5 lakh?", "docs": ["finance/expense-approval-matrix"], "facts": ["CFO"]}
+{"id": "q32", "user": "kabita", "q": "What TDS rate applies to supplier payments for goods?", "docs": ["finance/expense-approval-matrix"], "facts": ["1.5%"]}
+{"id": "q33", "user": "kabita", "q": "When do we need a sealed tender?", "docs": ["finance/expense-approval-matrix"], "facts": ["20 lakh"]}
+{"id": "q34", "user": "pemba", "q": "What should we do when sediment at the intake is above 7,000 ppm?", "docs": ["engineering/plant-operations-manual"], "facts": ["Shut down all units"]}
+{"id": "q35", "user": "pemba", "q": "When can we restart after a sediment shutdown?", "docs": ["engineering/plant-operations-manual"], "facts": ["4,000 ppm"]}
+{"id": "q36", "user": "pemba", "q": "How long do units stay at speed-no-load after a line trip?", "docs": ["engineering/plant-operations-manual"], "facts": ["30 minutes"]}
+{"id": "q37", "user": "pemba", "q": "When is the annual overhaul done?", "docs": ["engineering/maintenance-schedule"], "facts": ["Chaitra"]}
+{"id": "q38", "user": "pemba", "q": "How often do we take a transformer oil sample?", "docs": ["engineering/maintenance-schedule"], "facts": ["6 months"]}
+{"id": "q39", "user": "pemba", "q": "Which towers were damaged in the Bhadra line outage?", "docs": ["engineering/incident-2082-bhadra-line-outage"], "facts": ["27"]}
+{"id": "q40", "user": "pemba", "q": "When was the 132 kV line restored after the landslide?", "docs": ["engineering/incident-2082-bhadra-line-outage"], "facts": ["9 Bhadra"]}
+{"id": "q41", "user": "pemba", "q": "How long does the SCADA historian keep data?", "docs": ["engineering/scada-and-data"], "facts": ["10 years"]}
+{"id": "q42", "user": "sarita", "q": "What is the salary band for grade G3?", "docs": ["hr/salary-bands"], "facts": ["55,000"]}
+{"id": "q43", "user": "sarita", "q": "How much does the company contribute to the Social Security Fund?", "docs": ["hr/salary-bands"], "facts": ["20%"]}
+{"id": "q44", "user": "sarita", "q": "What is Pemba Sherpa's monthly gross salary?", "docs": ["hr/employees"], "facts": ["1,12,000"]}
+{"id": "q45", "user": "sarita", "q": "What is Laxmi Thami's mobile number?", "docs": ["hr/employees"], "facts": ["98"]}
+{"id": "q46", "user": "sarita", "q": "What increment does a rating of 4 get?", "docs": ["hr/performance-review-2082"], "facts": ["7%"]}
+{"id": "q47", "user": "sarita", "q": "When are manager reviews due?", "docs": ["hr/performance-review-2082"], "facts": ["30 Kartik"]}
+{"id": "q48", "user": "sarita", "q": "How many operators are we hiring?", "docs": ["hr/recruitment-plan-2082-83"], "facts": ["3"]}
+{"id": "q49", "user": "sabina", "q": "What is the indicative price for the Upper Kanchan Khola stake?", "docs": ["board/board-minutes-2082-asar"], "facts": ["64 crore"]}
+{"id": "q50", "user": "sabina", "q": "What refinancing rate did the banks offer?", "docs": ["board/board-minutes-2082-asar"], "facts": ["1.5%"]}
+{"id": "q51", "user": "sabina", "q": "What was the Q1 revenue?", "docs": ["finance/q1-results-2082-83"], "facts": ["26.0 crore"]}
+{"id": "q52", "user": "sabina", "q": "What is Kabita Rai's salary?", "docs": ["hr/employees"], "facts": ["1,18,000"]}
+{"id": "q53", "user": "bishal", "q": "sick leave kati din pauchha?", "docs": ["general/leave-policy"], "facts": ["12 days"]}
+{"id": "q54", "user": "pemba", "q": "penstock inspection kahile garne?", "docs": ["engineering/maintenance-schedule"], "facts": ["3 months"]}

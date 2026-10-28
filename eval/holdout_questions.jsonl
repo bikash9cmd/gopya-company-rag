@@ -1,0 +1,15 @@
+{"id": "h01", "user": "bishal", "q": "Can I carry forward unused home leave?", "docs": ["general/leave-policy"], "facts": ["90 days"]}
+{"id": "h02", "user": "bishal", "q": "Do I need a doctor's note for sick leave?", "docs": ["general/leave-policy"], "facts": ["3 days"]}
+{"id": "h03", "user": "kabita", "q": "What happens if I submit a travel claim after 30 days?", "docs": ["general/travel-and-allowances"], "facts": ["not paid"]}
+{"id": "h04", "user": "pemba", "q": "How often must passwords be changed?", "docs": ["general/it-and-security"], "facts": ["180 days"]}
+{"id": "h05", "user": "bishal", "q": "How many people must enter the tunnel together?", "docs": ["general/site-safety"], "facts": ["two people"]}
+{"id": "h06", "user": "bishal", "q": "When does the plant manager's daily monsoon status come out?", "docs": ["general/site-safety"], "facts": ["7:00"]}
+{"id": "h07", "user": "kabita", "q": "How much is the penalty threshold for low generation in the PPA?", "docs": ["finance/ppa-and-tariff"], "facts": ["80%"]}
+{"id": "h08", "user": "kabita", "q": "When is the next loan instalment due?", "docs": ["finance/q1-results-2082-83"], "facts": ["15 Poush"]}
+{"id": "h09", "user": "kabita", "q": "How much can the plant manager spend in an emergency?", "docs": ["finance/expense-approval-matrix"], "facts": ["10 lakh"]}
+{"id": "h10", "user": "pemba", "q": "What is the design discharge of each unit?", "docs": ["engineering/plant-operations-manual"], "facts": ["5.2"]}
+{"id": "h11", "user": "pemba", "q": "How often is the runner sent for hard-coating repair?", "docs": ["engineering/maintenance-schedule"], "facts": ["two years"]}
+{"id": "h12", "user": "sarita", "q": "How much is the Dashain allowance?", "docs": ["hr/salary-bands"], "facts": ["one month"]}
+{"id": "h13", "user": "sarita", "q": "What share of a department can be rated outstanding?", "docs": ["hr/performance-review-2082"], "facts": ["15%"]}
+{"id": "h14", "user": "sabina", "q": "When is the next board meeting?", "docs": ["board/board-minutes-2082-asar"], "facts": ["20 Ashwin"]}
+{"id": "h15", "user": "sarita", "q": "talab kahile badhchha? performance review ko result kahile aauchha?", "docs": ["hr/performance-review-2082"], "facts": []}
