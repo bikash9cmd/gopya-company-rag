@@ -48,8 +48,5 @@ if q := st.chat_input("Ask about policies, operations or records"):
     body = r.answer
     if r.sources:
         body += "\n\n" + "\n".join(f"- {s}" for s in r.sources)
-    with st.chat_message("assistant"):
-        st.markdown(body)
-        with st.expander("Trace"):
-            st.json({k: r.trace[k] for k in ("decision", "retrieved", "top_score", "backend", "gate", "redactions", "ms", "cost_usd")})
+    st.chat_message("assistant").markdown(body)
     st.session_state[key] += [("user", q), ("assistant", body)]
