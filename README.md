@@ -1,5 +1,7 @@
 # Gopya (गोप्य, "confidential"): a company assistant that only knows what you're allowed to know
 
+[![Try it live](https://img.shields.io/badge/Try%20it%20live-Hugging%20Face%20Space-yellow?logo=huggingface)](https://huggingface.co/spaces/bikash9cmd/gopya)
+
 Gopya is an internal chatbot for a company's own documents, built as retrieval augmented
 generation (RAG) with **role-based access control enforced inside the vector store query**. A
 finance officer asking about the power tariff gets the tariff with a citation. An operator asking
