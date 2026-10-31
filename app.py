@@ -1,16 +1,20 @@
 """Streamlit chat UI: pick a demo user and see how the same question is answered per role.
 
-    streamlit run app.py
+streamlit run app.py
 """
 
 import streamlit as st
 
+import brand
 from gopya.config import settings
 from gopya.corpus import load
 from gopya.index import Index
 from gopya.pipeline import Gopya
 
-st.set_page_config(page_title="Gopya", page_icon="🔒", layout="centered")
+brand.page(
+    "gopya",
+    note="Kanchan Hydro is a fictional Nepali hydropower company. Pick a person on the left, then ask the same question as different roles.",
+)
 
 
 @st.cache_resource
@@ -26,7 +30,10 @@ users = g.directory.users
 with st.sidebar:
     st.header("Signed in as")
     uid = st.radio(
-        "Demo user", list(users), format_func=lambda u: f"{users[u].name} ({users[u].role.name})", label_visibility="collapsed"
+        "Demo user",
+        list(users),
+        format_func=lambda u: f"{users[u].name} ({users[u].role.name})",
+        label_visibility="collapsed",
     )
     user = users[uid]
     st.caption("Can read: " + ", ".join(sorted(user.role.collections)))
@@ -34,19 +41,19 @@ with st.sidebar:
     st.divider()
     st.caption("Try: *What is the dry season tariff this year?* as Kabita and then as Bishal.")
 
-st.title("Gopya")
-st.caption("Kanchan Hydro's internal assistant. Answers only from documents your role can read.")
 
 key = f"history-{uid}"
 st.session_state.setdefault(key, [])
 for role, text in st.session_state[key]:
-    st.chat_message(role).markdown(text)
+    st.chat_message(role, avatar=brand.avatar(role, "gopya")).markdown(text)
 
 if q := st.chat_input("Ask about policies, operations or records"):
-    st.chat_message("user").markdown(q)
+    st.chat_message("user", avatar=brand.avatar("user", "gopya")).markdown(q)
     r = g.ask(user, q)
     body = r.answer
     if r.sources:
         body += "\n\n" + "\n".join(f"- {s}" for s in r.sources)
-    st.chat_message("assistant").markdown(body)
+    st.chat_message("assistant", avatar=brand.avatar("assistant", "gopya")).markdown(body)
     st.session_state[key] += [("user", q), ("assistant", body)]
+
+brand.footer()
