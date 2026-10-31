@@ -5,6 +5,9 @@
 
 import streamlit as st
 
+from gopya.config import settings
+from gopya.corpus import load
+from gopya.index import Index
 from gopya.pipeline import Gopya
 
 st.set_page_config(page_title="Gopya", page_icon="🔒", layout="centered")
@@ -12,7 +15,10 @@ st.set_page_config(page_title="Gopya", page_icon="🔒", layout="centered")
 
 @st.cache_resource
 def engine() -> Gopya:
-    return Gopya.open()
+    cfg = settings()
+    if not (cfg.index_dir / "manifest.json").exists():  # fresh deploy: build the index once (a few seconds)
+        Index.build(load(cfg.docs_dir), cfg.index_dir)
+    return Gopya.open(cfg)
 
 
 g = engine()
