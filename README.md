@@ -1,4 +1,4 @@
-# Gopya (गोप्य, "confidential"): a company assistant that only knows what you're allowed to know
+# RBAC RAG Document Chatbot: a company assistant that only knows what you're allowed to know
 
 [![Try it live](https://img.shields.io/badge/Try%20it%20live-gopya.onrender.com-46E3B7?logo=render)](https://gopya.onrender.com)
 
